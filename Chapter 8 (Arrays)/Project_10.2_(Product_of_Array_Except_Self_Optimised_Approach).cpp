@@ -15,7 +15,7 @@ int main() {
     vector<int> nums = {1,2,3,4};
 
     vector<int> ans = productExceptSelf(nums);
-    for(int i=0; i<ans.size(); i++){
+    for(size_t i=0; i<ans.size(); i++){
         cout<<ans[i]<<" ";
     }
     return 0;
