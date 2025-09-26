@@ -1,4 +1,4 @@
-// ARRAYS : Collection of similar data types stored at contiguous memory locations. 
+// ARRAYS : Collection of similar data types stored at contiguous memory locations.
 
 // NOTE : We can't store variables with different datatypes.
 
@@ -16,11 +16,17 @@
 
 // Zero Based Indexing (Check Notepad for details)
 
+/*
+NOTE : In Cpp we can't enter a variable in size of array like arr[n] because In C++, the size of a static array must be a compile-time constant. 
+This means you cannot use a variable whose value is determined at runtime to define the size of a traditional C-style array.
+BUT
+In C you can do that and these arrays are called Variable Length Arrays.
+*/
+
 #include <iostream>
 using namespace std;
 
 int main() {
-
     // Storing Marks of 3 Students without using Arrays
     int marks1 = 98;
     int marks2 = 91;
@@ -40,7 +46,7 @@ int main() {
     cout << marks[1] << endl;
     cout << marks[2] << endl;
 
-    // Input & Output 
+    // Input & Output
     int marks_[3];
 
     cout << "Physics = ";
