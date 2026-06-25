@@ -2,7 +2,6 @@
 
 // Print all the possible subarrays of a given array :
 
-
 #include <iostream>
 using namespace std;
 
@@ -20,4 +19,4 @@ int main() {
         cout << endl;
     }
     return 0;
-} 
+}
